@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.aacefa67.css",
+    "main.js": "/static/js/main.d3c48d14.js",
+    "static/media/Rectangle3.png": "/static/media/Rectangle3.800242819ba3578197b6.png",
+    "static/media/Rectangle4.png": "/static/media/Rectangle4.02155542396176aeb596.png",
+    "static/media/Rectangle1.png": "/static/media/Rectangle1.81cf0d3f3408d0a8a69f.png",
+    "static/media/Rectangle2.png": "/static/media/Rectangle2.d4f875582ebfe90e36ab.png",
+    "static/media/enjoy.png": "/static/media/enjoy.1929aad93c1dc8b4bf12.png",
+    "static/media/team.png": "/static/media/team.98341add2776d84853ac.png",
+    "static/media/hand.png": "/static/media/hand.47e1e504a0a931c700df.png",
+    "static/media/value.png": "/static/media/value.f98abc2fb3207a1e94a8.png",
+    "static/media/Rectangle.png": "/static/media/Rectangle.22cb97424e392a0fdc87.png",
+    "static/media/about.png": "/static/media/about.35c8cacb7295ee5361ea.png",
+    "static/media/project2.png": "/static/media/project2.43ef0e1083e2b47042e1.png",
+    "static/media/ceo2.png": "/static/media/ceo2.b63341bfee5dc6c93cf1.png",
+    "static/media/People.png": "/static/media/People.809c224fb402a517d9be.png",
+    "static/media/project1.png": "/static/media/project1.9570c228be1dc837ec88.png",
+    "static/media/ceo.png": "/static/media/ceo.7c9ed06aed8796468363.png",
+    "static/media/project3.png": "/static/media/project3.2e6c2f33121e4f81b2b0.png",
+    "static/media/project4.png": "/static/media/project4.4bb7090fa42ba154f3f0.png",
+    "static/media/phone.png": "/static/media/phone.a04c4b284fc963cef09a.png",
+    "static/media/cto.png": "/static/media/cto.9977691daf0681f3c0e7.png",
+    "static/media/Testimony.png": "/static/media/Testimony.cdc24fd7b929f0ad0a67.png",
+    "static/media/hr.png": "/static/media/hr.eafd4d24bdd390a808bb.png",
+    "static/media/chief2.png": "/static/media/chief2.ed51f9345c85e2b0ff7d.png",
+    "static/media/chief.png": "/static/media/chief.d0df682f2bc9a7f21678.png",
+    "static/media/chief1.png": "/static/media/chief1.78a285492231e6b55e69.png",
+    "static/media/vector12.png": "/static/media/vector12.34e432eb05325edad918.png",
+    "static/media/mobileImage.PNG": "/static/media/mobileImage.f70bbdac1385610ab7de.PNG",
+    "static/media/Logo.png": "/static/media/Logo.bd3846a48bf68d2a272a.png",
+    "index.html": "/index.html",
+    "main.aacefa67.css.map": "/static/css/main.aacefa67.css.map",
+    "main.d3c48d14.js.map": "/static/js/main.d3c48d14.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aacefa67.css",
+    "static/js/main.d3c48d14.js"
+  ]
+}

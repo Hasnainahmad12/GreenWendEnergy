@@ -1,0 +1,243 @@
+/* footer Section */
+.footer__firstheight {
+    height: 700px;
+    width: 410px;
+}
+
+.footer__first {
+    width: 410px;
+    height: 140px;
+
+    background: #7681C8;
+    }
+
+
+.footer__details {
+    width: 332px;
+    height: 122px;
+
+    margin-top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: justify;
+    padding: 30px;
+    color: #707070;
+    /* background: brown; */
+}
+
+.footer__second {
+    width: 410px;
+    height: 140px;
+
+    background: #616FC8;
+    }
+
+.footer__secondheight {
+        height: 700px;
+        width: 410px;
+        /* background: brown; */
+    }
+
+.footer__third {
+    width: 410px;
+    height: 140px;
+    background: #5462BA;
+    }
+ 
+.footer__thirdheight {
+    height: 700px;
+    width: 410px;
+    /* background: yellow; */
+}
+
+.footer__icon {
+    width: 50px;
+    height: 50px;
+
+    }
+
+.footer__para {
+    width: 225px;
+    height: 27px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 27px;
+    
+    color: #DFDFDF;
+    margin-top: -50px;
+    margin-left: 95px;
+}
+
+
+.footer__contact {
+    width: 229px;
+    height: 30px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+    margin-top: -5px;
+    margin-left: 95px;
+}
+
+.second__footpara {
+    /* position: absolute; */
+    width: 151px;
+    height: 45px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 45px;
+    margin-top: 135px;
+    margin-left: 20px;
+    color: #070A1D;
+}
+
+.second__footsection {   
+    width: 102px;
+    height: 30px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 40px;
+    margin-left: 20px;
+    text-align: justify;
+
+    color: #070A1D;
+
+}
+
+.second__footsection1 {
+    width: 102px;
+    height: 30px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 40px;
+    margin-left: 260px;
+    text-align: justify;
+
+    color: #070A1D;
+
+}
+
+.second__footpara1 {
+    /* position: absolute; */
+    width: 151px;
+    height: 45px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 45px;
+    margin-top: -112px;
+    margin-left: 260px;
+    color: #070A1D;
+}
+
+.third__footpara {
+    width: 151px;
+    height: 45px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 45px;
+    margin-top: 165px;
+    margin-left: 40px;
+    color: #070A1D;
+}
+
+.contact__input {
+    box-sizing: border-box;
+    width: 306px;
+    height: 41px;
+    border: 1.5px solid #717171;
+    margin-top: -150px;
+    margin-left: 20px;
+    padding: 20px;
+    color: #717171;
+}
+
+.footer__line {
+    width: 1350px;
+    height: 0px;
+    margin-top: -80px;
+    border: 1px solid #B4B4B4;
+}
+
+.last__line {
+    width: 730px;
+    height: 27px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: justify;
+    padding-left: 20px;
+    color: #707070;
+}
+
+.footer__para1 {
+    width: 325px;
+    height: 27px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 27px;
+    
+    color: #DFDFDF;
+    margin-top: -50px;
+    margin-left: 80px;
+}
+
+/* Footer Input Feild */
+.main {
+    box-sizing: border-box;
+    width: 306px;
+    height: 41px;
+    margin-left: 25px;
+}
+
+.iconImage {
+    height: 41px;
+    line-height: 41px;
+    width: 50px;
+    float: right;
+    padding: 8px 11px;
+    /* color: white; */
+    background:#717171;
+
+}   
+
+.input {
+    float: right;
+    box-sizing: border-box;
+    font-size: 18px;
+    height: 41px;
+    width: 256px;
+    border: 1.5px solid #717171;
+    padding: 10px;
+    outline: none;
+}

@@ -1,0 +1,658 @@
+.main__image{
+    height: 100vh;
+    width: 100%;
+}
+
+.slider__image {
+    height: 100vh;
+    width: 100%;
+    /* background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%); */
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(84, 98, 186, 0.9) 80%);
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(84, 98, 186, 0.9) 80%);
+}
+
+.main__heading{
+    width: 985px;
+    font-size: 50px;
+    /* position: absolute; */
+    /* top: 230px; */
+    /* left: 205px; */
+    font-weight: 800;
+    font-family: 'poppins';
+    text-align: center;
+}
+
+.main__title{
+    /* position: absolute; */
+    width: 946px;
+    height: 41px;
+    /* left: 205px; */
+    /* top: 326px; */
+    /* background: brown; */
+    margin: auto;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #717171;}
+
+.main__button {
+        width: 300px;
+        height: 80px;
+        color: white;
+        background: #202E86;
+        font-size: 25px;
+        margin-top: 25px;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.4);
+        border-radius: 10px;
+}
+
+@media (max-width:800px) {
+    .main__image{
+        height: 100vh;
+        width: 100%;
+   
+    }
+    
+ 
+.main__heading{
+    width: 280px;
+    font-size: 30px;
+    position: absolute;
+    top: 390px;
+    left: 25px;
+  
+    font-weight: 800;
+    font-family: 'poppins';
+    text-align: center;
+
+}
+ 
+.main__title{
+    position: absolute;
+    height: 135px;
+    left: 35px;
+    top: 463px;
+    width: 250px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    /* background: pink; */
+    /* line-height: 30px; */
+    color: #717171;}
+
+      
+}
+
+/* Home Services */
+.home__container {
+    height: 502px;
+    width: 100%;
+    background-image: linear-gradient(to left, rgba(84, 98, 186, 0.7), rgba(82, 78, 183, 0.6)),
+    url('../Images/Rectangle1.png');
+}
+
+.main__title-div {
+    padding-top: 40px;
+    padding-left: 35px;
+}
+
+.title__line {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 65px;
+    
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+/* Why Choose GreenWendEnergy Section */
+.item__class {
+    @apply flex h-28 mt-2 m-auto
+}
+
+
+.avator{
+    width: 60px;
+    height: 55px;
+    margin-top: 20px;
+    margin-left: 60px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    }
+
+.image{
+        margin: auto;
+        padding-top: 11px;
+    }
+
+.paragh {
+   
+    width: 490px;
+    height: 45px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 45px;
+    margin-top: 25px;
+    margin-left: 10px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    }
+
+
+@media (max-width:800px) {
+    .home__container {
+        height: 100vh;
+        width: 100%;
+        background: #CBD2FF;
+    
+    }
+    
+    .main__title-div {
+        padding-top: 30px;
+        padding-left: 25px;
+    }
+ 
+    
+    .title__line {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        /* line-height: 75px; */
+
+        text-transform: capitalize;
+
+        color: #3F3F3F;
+
+}
+
+.avator{
+   
+    width: 50px;
+    height: 50px;
+  
+    margin-top: 12px;
+    margin-left: 16px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    }
+
+.image{
+    height: 22px;
+    margin-top: 13px;
+    margin-left: 15px;
+    }
+
+.paragh {
+    width: 265px;
+    height: 45px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 45px;
+    margin-top: 15px;
+    margin-left: 10px;
+    text-transform: capitalize;
+    color: #070A1D;
+    }
+}
+
+/* About Us Services */
+.about__div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+ 
+}
+
+.about__image{
+    width: 626px;
+    height: 567px;
+    margin-top: 90px;
+}
+
+.mession__div{
+    width: 382px;
+    height: 381px;
+    background: #FEDC3C;
+
+    padding: 10px;
+    margin-top: -200px;
+    margin-left: 100px;
+    position: absolute;
+    
+}
+
+.paraghraph {
+    width: 310px;
+    height: 180px;
+
+    margin-left: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 45px;
+
+    /* or 180% */
+
+    color: #070A1D;
+}
+
+.about__us{
+    height: 45px;
+    width: 136px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 45px;
+    color: #000000;
+    margin-top: 90px;
+}
+
+.heading{
+    height: 145px;
+    width: 454px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 68px;
+    margin-top: -5px;
+    text-transform: capitalize;
+
+    color: #3F3F3F;
+}
+
+.about__paragh {
+    height: 225px;
+    width: 520px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #707070;
+}
+
+.about__more {
+    height: 55px;
+    width: 292px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    /* background: pink; */
+    margin-top: -35px;
+    text-transform: uppercase;
+
+    color: #5EA410;
+}
+
+/* Services */
+.Services {
+    height: 75px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 75px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 280px;
+    color: #3F3F3F;
+}
+
+.services__para {
+    height: 90px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 45px;
+    text-align: center;
+    padding: 20px 152px;
+    color: #707070;
+
+}
+
+/* Achivements Page */
+.achive__image {
+    width: 100%;
+    height: 480px;
+    background-image: linear-gradient(to left, rgba(84, 98, 186, 0.7), rgba(82, 78, 183, 0.6)),
+    url('../Images/Rectangle4.png');
+}
+
+.our__head {
+    width: 478px;
+    height: 75px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 75px;
+    text-align: center;
+    padding-top: 25px;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.our__para {
+    width: 217px;
+    height: 75px;
+    left: 156px;
+    top: 2693px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 75px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.kilometer {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 75px;
+
+    text-align: center;
+    text-transform: capitalize;
+ 
+    color: white;
+    padding-top: 30px;
+    margin: auto;
+}
+
+.our__title {
+    width: 277px;
+    height: 45px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 45px;
+ 
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: -20px;
+    margin-left: 15px;
+    color: #FFFFFF;
+}
+
+
+/* Our Projects */
+.our__projects {
+    width: 311px;
+    height: 75px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 75px;
+
+    text-align: center;
+    text-transform: capitalize;
+ 
+    color: #3F3F3F;
+    padding-top: 30px;
+    margin: auto;
+}
+
+.testimony {
+    margin-top: 110px;
+    width: 100%;
+    height: 564px;
+    background-image: linear-gradient(to left, rgba(84, 98, 186, 0.7), rgba(82, 78, 183, 0.6)),
+    url('../Images/Testimony.png');
+}
+
+.testimony__head {
+    width: 274px;
+    height: 102.19px;
+    padding: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 75px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+
+}
+
+.vector__image {
+    width: 248px;
+    height: 248px;
+    filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 0.3));
+    transform: rotate(5deg);
+    /* background: brown; */
+    margin-top: -100px;
+    margin-left: 80%;
+
+}
+
+.user__review {
+    width: 890px;
+    height: 180px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 10px;
+    margin: auto;
+}
+
+.user__name {
+    width: 670px;
+    height: 45px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 45px;
+
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto;
+    padding-top: 30px;
+}
+
+/* Mobile Section */
+.mobile__image {
+    width: 597.73px;
+    height: 100vh;
+ 
+}
+
+.mobile__head {
+    width: 482px;
+    height: 120px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 55px;
+    /* background: brown; */
+    margin-top: 30px;
+    color: #070A1D;
+}
+
+.mobile__para {
+    width: 583px;
+    height: 270px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 38px;
+    padding-top: 20px;
+    text-align: justify;
+    color: #707070;
+}
+
+.mobile__download {
+    width: 167px;
+    height: 28px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 10px;
+    margin-top: -20px;
+    text-transform: uppercase;
+
+    color: #5EA410;
+}
+
+
+/* Cantact US Section */
+.cantact__us {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to left, rgba(84, 98, 186, 0.7), rgba(82, 78, 183, 0.6)),
+    url('../Images/phone.png');   
+}
+
+.cantact__head {
+    /* width: 151px; */
+    height: 45px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.contact__para {
+    /* width: 768px; */
+    height: 71px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 68px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.form__feild {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 70%;
+    background: brown;
+}
+
+.label {
+    width: 168px;
+    height: 45px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+.label1 {
+    width: 168px;
+    height: 45px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 45px;
+    margin-left: -30px;
+    color: #FFFFFF;
+}
+
+.inputFeild::placeholder {
+    color: white;
+}
+.inputFeild {
+    box-sizing: border-box;
+    width: 450px;
+    height: 50px;
+ 
+    background: rgba(84, 98, 186, 0.2);;
+    border: 2px solid #FFFFFF;
+    padding: 20px;
+    color: #DFDFDF;
+    outline: none;    
+}
+
+.message__feild {
+    @apply flex flex-wrap h-60 w-[85%] mt-[-100px]
+}
+
+.inputMessage {
+    box-sizing: border-box;
+    width: 965px;
+    height: 170px;
+    background: rgba(84, 98, 186, 0.2);
+    border: 2px solid #FFFFFF;
+    padding: 20px;
+    margin-left: -35px;
+    color: #DFDFDF;   
+}
+
+.inputMessage::placeholder {
+    color: white;
+}
+
+.form__button {
+    width: 290px;
+    height: 70px;
+    background: #202E86;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin-top: -60px;
+}
+
+.send__button {   
+    width: 290px;
+    height: 70px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
